@@ -21,3 +21,9 @@ const decryptedMessage = decipher.update(encryptedMessage, 'hex', 'utf-8') + dec
 console.log("encrypted message: " + encryptedMessage);
 console.log("deciphered message: " + decryptedMessage);
 
+// share a secret, and also allow them to read it
+// take message, scramble into cipher text, provide key/pswd, allowing someone to decrypt/read it
+
+
+// problem with symmetric: sender and receiver need the password, not practical for two diff parties to agree on a shared password
+

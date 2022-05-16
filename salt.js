@@ -31,3 +31,6 @@ function login(email, password) {
 
 signup('evanlicubs@gmail.com','12345');
 console.log(login('evanlicubs@gmail.com','12345'))
+
+// hash function always returns same value, bad cause there are rainbow tables for common pswds 
+// salt, adds random value to a pswd before hash, making it harder to guess

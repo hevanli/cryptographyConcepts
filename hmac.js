@@ -11,3 +11,6 @@ const key2 = 'other-password';
 const hmac2 = createHmac('sha256', key2).update(message).digest('hex');
 
 console.log(hmac2);
+
+// Hashed-Based Message Authentication Code
+// Hash, also requires a pswd, so only person who can create a hash signature needs the corresponding pswd/key
