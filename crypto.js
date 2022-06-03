@@ -1,4 +1,4 @@
-const { createHash } = require('crypto');
+const { createHash } = require('crypto'); // gets "createHash" from the "crypto" module
 
 //Create a string hash
 
